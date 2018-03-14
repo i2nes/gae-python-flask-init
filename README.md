@@ -2,7 +2,7 @@
 
 A simple [Flask](http://flask.pocoo.org/) skeleton for starting a project on [Google App Engine](http://appengine.google.com/) Standard Environment
 
-### Application File Structer
+### Application File Structure
 ```
 .gitignore                          Define files you don't want to be tracked
 README.md                           You're reading it
