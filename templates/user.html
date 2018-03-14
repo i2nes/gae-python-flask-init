@@ -1,0 +1,9 @@
+{% extends 'base_template.html' %}
+
+{% block head_title %}<title>{{ context['title'] }}</title>{% endblock %}
+
+{% block jumbotron_container %}
+<h1 class="display-3">Hello, world!</h1>
+<p>Page for user {{ context['username'] }}</p>
+<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+{% endblock %}
