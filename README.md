@@ -23,7 +23,7 @@ git clone https://github.com/i2nes/gae-python-flask-init.git
 pip install -r requirements.txt -t lib/
 ```
 
-6. Startup the app in a development server ()
+6. Startup the app in a development server
 ```
 dev_appserver.py app.yaml
 ```
@@ -67,7 +67,7 @@ gcloud app deploy  --project [YOUR_PROJECT_ID]
 
     dev_appserver.py app.yaml
 
-### Deploy to App Engine
+### Deploying to App Engine
 
     gcloud app deploy  --project [YOUR_PROJECT_ID] --version [SPECIFY_A_VERSION]
 
