@@ -2,6 +2,29 @@
 
 A simple [Flask](http://flask.pocoo.org/) skeleton for starting a project on [Google App Engine](http://appengine.google.com/) Standard Environment
 
+### Application File Structer
+```
+.gitignore                          Define files you don't want to be tracked
+README.md                           You're reading it
+app.yaml                            Python application runtime configuration
+appengine_config.py                 Third-party libraries path setup
+requirements.txt                    Third-party libraries
+main.py                             Main Python Application
+templates/                          JINJA2 HTML templates folder
+├── base_template.html
+├── hello.html
+├── post.html
+├── user.html
+static/                             Static Files Folder
+├── favicon.ico
+├── css/
+    ├── bootstrap.min.css
+    ├── jumbotron.css
+├── js/
+    ├── bootstrap.min.js
+    ├── popper.min.js
+```
+
 ## Getting Started
 
 1. Make sure you have [Python 2.7](https://www.python.org/downloads/) installed
